@@ -13,4 +13,4 @@ def click():
     y = 200
     button = "right"  # left, middle
 
-    send_click_to_window(window_name, x, y, button="left")
+    send_click_to_window(window_name, x, y, button)
